@@ -1,0 +1,143 @@
+body {
+    font-family: "Roboto", sans-serif
+    color: black;
+}
+
+.list {
+    list-style: none;
+}
+.link {
+    text-decoration: none;
+}
+
+.all-button {
+    font-weight: 600;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+color: #FFFFFF;
+background-color: #4D5AE5;
+cursor: pointer;
+}
+.website-button {
+    font-weight: 600;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+color: #4D5AE5;
+background-color:#E7E9FC ;
+cursor: pointer;
+}
+.app-button {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;  
+    letter-spacing: 0.04em;
+color: #4D5AE5;
+background-color:#E7E9FC ;
+cursor: pointer;
+}
+.design-button {
+    font-weight: 600;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+color: #4D5AE5;
+background-color: #E7E9FC;
+cursor: pointer;
+}
+.marketing-button {
+    font-weight: 600;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+color: #4D5AE5;
+background-color:#E7E9FC ;
+cursor: pointer;
+}
+
+.webstudio {
+    font-family: 'Raleway';
+font-weight: 800;
+font-size: 18px;
+line-height: 1.33;
+letter-spacing: 0.03em;
+color: #2E2F42;
+}
+.studio {
+    font-weight: 600;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #2E2F42;
+}
+.portfolio {
+    font-weight: 600;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #2E2F42;
+}
+.contacts {
+    font-weight: 600;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #2E2F42;
+}
+.mailto {
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
+}
+.mailto:hover,
+.mailto:focus
+{
+    color: #4D5AE5;
+}
+.tel {
+    font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
+}
+.tel:hover,
+.tel:focus
+{
+    color: #4D5AE5;
+}
+.p-webstudio {
+    font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #E7E9FC;
+
+}
+.h2 {
+font-weight: 600;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color:#2E2F42 ;
+}
+.p {
+    font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
+
+}
+
+.webstudio-down {
+    font-family: 'Raleway';
+font-weight: 800;
+font-size: 18px;
+line-height: 1.33;
+letter-spacing: 0.03em;
+color: #F4F4FD
+}
+.webstudio-background {
+    background-color: #2E2F42;
+
+}
