@@ -136,3 +136,21 @@ body {
 .webstudio-background {
   background-color: #2e2f42;
 }
+
+.oder-service-button {
+  font-weight: 600;
+font-size: 16px;
+line-height: 1.18;
+letter-spacing: 0.04em;
+color: #FFFFFF;
+background-color:#4D5AE5;
+}
+.section-h1{
+background-color: #2E2F42;
+}
+.h1{
+  color: #FFFFFF;
+}
+.section-our-team{
+  background-color: #F4F4FD;
+}
