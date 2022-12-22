@@ -1,6 +1,10 @@
+:root {
+  --main-colour: #2e2f42;
+}
+
 body {
   font-family: "Roboto", sans-serif;
-  color: black;
+  color: #434455;
 }
 
 .list {
@@ -15,10 +19,16 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: #ffffff;
-  background-color: #4d5ae5;
+  color: #4d5ae5;
+  background-color: #e7e9fc;
   cursor: pointer;
 }
+.all-button:hover,
+.all-button:focus {
+  background-color: #404bbf;
+  color: #ffffff;
+}
+
 .website-button {
   font-weight: 600;
   font-size: 16px;
@@ -28,6 +38,13 @@ body {
   background-color: #e7e9fc;
   cursor: pointer;
 }
+
+.website-button:hover,
+.website-button:focus {
+  background-color: #4d5ae5;
+  color: #ffffff;
+}
+
 .app-button {
   font-weight: 600;
   font-size: 16px;
@@ -37,6 +54,13 @@ body {
   background-color: #e7e9fc;
   cursor: pointer;
 }
+
+.app-button:hover,
+.app-button:focus {
+  background-color: #404bbf;
+  color: #ffffff;
+}
+
 .design-button {
   font-weight: 600;
   font-size: 16px;
@@ -46,6 +70,13 @@ body {
   background-color: #e7e9fc;
   cursor: pointer;
 }
+
+.design-button:hover,
+.design-button:focus {
+  background-color: #404bbf;
+  color: #ffffff;
+}
+
 .marketing-button {
   font-weight: 600;
   font-size: 16px;
@@ -56,34 +87,62 @@ body {
   cursor: pointer;
 }
 
+.marketing-button:hover,
+.marketing-button:focus {
+  background-color: #404bbf;
+  color: #ffffff;
+}
+
 .webstudio {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+.webstudio > span {
   font-family: "Raleway";
   font-weight: 800;
   font-size: 18px;
   line-height: 1.33;
   letter-spacing: 0.03em;
-  color: #2e2f42;
+  color: var(--main-colour);
 }
+
 .studio {
   font-weight: 600;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--main-colour);
 }
+.studio:hover,
+.studio:focus {
+  color: #4d5ae5;
+}
+
 .portfolio {
   font-weight: 600;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--main-colour);
 }
+
+.portfolio:hover,
+.portfolio:focus {
+  color: #4d5ae5;
+}
+
 .contacts {
   font-weight: 600;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--main-colour);
 }
 .mailto {
   font-size: 16px;
@@ -111,14 +170,14 @@ body {
   letter-spacing: 0.02em;
   color: #e7e9fc;
 }
-.h2 {
+.suggestions {
   font-weight: 600;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--main-colour);
 }
-.p {
+.suggestions-paragraph {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -131,26 +190,135 @@ body {
   font-size: 18px;
   line-height: 1.33;
   letter-spacing: 0.03em;
+  text-transform: uppercase;
   color: #f4f4fd;
 }
 .webstudio-background {
-  background-color: #2e2f42;
+  background-color: var(--main-colour);
+}
+
+.webstudio-down > span {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
 }
 
 .oder-service-button {
   font-weight: 600;
-font-size: 16px;
-line-height: 1.18;
-letter-spacing: 0.04em;
-color: #FFFFFF;
-background-color:#4D5AE5;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  background-color: #4d5ae5;
+  cursor: pointer;
 }
-.section-h1{
-background-color: #2E2F42;
+
+.oder-service-button:hover,
+.oder-service-button:focus {
+  background-color: #404bbf;
 }
-.h1{
-  color: #FFFFFF;
+
+.section-h1 {
+  background-color: var(--main-colour);
 }
-.section-our-team{
-  background-color: #F4F4FD;
+.main-title {
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+}
+.section-our-team {
+  background-color: #f4f4fd;
+}
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+.strategy {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--main-colour);
+}
+.punctuality {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--main-colour);
+}
+.diligence {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--main-colour);
+}
+.technologies {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--main-colour);
+}
+
+.services {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--main-colour);
+}
+
+.our-team {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--main-colour);
+}
+
+.strategy-paragraph {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.punctuality-paragraph {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.diligence-paragraph {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.technologies-paragraph {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
