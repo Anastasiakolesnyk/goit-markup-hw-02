@@ -1,8 +1,8 @@
 :root {
   --main-color: #2e2f42;
-  --background-color:#e7e9fc;
-  --button-color:#4d5ae5;
-  --addition-color:#434455;
+  --background-color: #e7e9fc;
+  --button-color: #4d5ae5;
+  --addition-color: #434455;
   --letter-spacing: 0.02em;
 }
 
@@ -23,7 +23,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color:var(--button-color);
+  color: var(--button-color);
   background-color: var(--background-color);
   cursor: pointer;
 }
@@ -38,8 +38,8 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color:var(--button-color);
-  background-color:var(--background-color);
+  color: var(--button-color);
+  background-color: var(--background-color);
   cursor: pointer;
 }
 
@@ -107,13 +107,13 @@ body {
   text-transform: uppercase;
   color: #4d5ae5;
 }
-.webstudio> span{
+.webstudio > span {
   font-family: "Raleway";
   font-weight: 800;
   font-size: 18px;
   line-height: 1.33;
   letter-spacing: 0.03em;
-  color:#2e2f42;
+  color: #2e2f42;
 }
 
 .studio {
@@ -151,7 +151,7 @@ body {
 .mailto {
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing:var(--letter-spacing);
+  letter-spacing: var(--letter-spacing);
   color: var(--addition-color);
 }
 .mailto:hover,
@@ -161,7 +161,7 @@ body {
 .tel {
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing:var(--letter-spacing);
+  letter-spacing: var(--letter-spacing);
   color: var(--addition-color);
 }
 .tel:hover,
@@ -256,7 +256,7 @@ body {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  letter-spacing:var(--letter-spacing);
+  letter-spacing: var(--letter-spacing);
   color: var(--main-color);
 }
 .punctuality {
@@ -270,7 +270,7 @@ body {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  letter-spacing:var(--letter-spacing);
+  letter-spacing: var(--letter-spacing);
   color: var(--main-color);
 }
 .technologies {
@@ -309,20 +309,20 @@ body {
 .punctuality-paragraph {
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing:  var(--letter-spacing);
-  color:var(--addition-color);
+  letter-spacing: var(--letter-spacing);
+  color: var(--addition-color);
 }
 
 .diligence-paragraph {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: var(--letter-spacing);
-  color:var(--addition-color);
+  color: var(--addition-color);
 }
 
 .technologies-paragraph {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: var(--letter-spacing);
-  color:var(--addition-color);
+  color: var(--addition-color);
 }
