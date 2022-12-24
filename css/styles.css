@@ -1,10 +1,14 @@
 :root {
-  --main-colour: #2e2f42;
+  --main-color: #2e2f42;
+  --background-color:#e7e9fc;
+  --button-color:#4d5ae5;
+  --addition-color:#434455;
+  --letter-spacing: 0.02em;
 }
 
 body {
   font-family: "Roboto", sans-serif;
-  color: #434455;
+  color: var(--addition-color);
 }
 
 .list {
@@ -19,8 +23,8 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: #4d5ae5;
-  background-color: #e7e9fc;
+  color:var(--button-color);
+  background-color: var(--background-color);
   cursor: pointer;
 }
 .all-button:hover,
@@ -34,14 +38,14 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: #4d5ae5;
-  background-color: #e7e9fc;
+  color:var(--button-color);
+  background-color:var(--background-color);
   cursor: pointer;
 }
 
 .website-button:hover,
 .website-button:focus {
-  background-color: #4d5ae5;
+  background-color: #404bbf;
   color: #ffffff;
 }
 
@@ -50,8 +54,8 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: #4d5ae5;
-  background-color: #e7e9fc;
+  color: var(--button-color);
+  background-color: var(--background-color);
   cursor: pointer;
 }
 
@@ -66,8 +70,8 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: #4d5ae5;
-  background-color: #e7e9fc;
+  color: var(--button-color);
+  background-color: var(--background-color);
   cursor: pointer;
 }
 
@@ -82,8 +86,8 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: #4d5ae5;
-  background-color: #e7e9fc;
+  color: var(--button-color);
+  background-color: var(--background-color);
   cursor: pointer;
 }
 
@@ -116,8 +120,8 @@ body {
   font-weight: 600;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--main-colour);
+  letter-spacing: var(--letter-spacing);
+  color: var(--main-color);
 }
 .studio:hover,
 .studio:focus {
@@ -128,8 +132,8 @@ body {
   font-weight: 600;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--main-colour);
+  letter-spacing: var(--letter-spacing);
+  color: var(--main-color);
 }
 
 .portfolio:hover,
@@ -141,14 +145,14 @@ body {
   font-weight: 600;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--main-colour);
+  letter-spacing: var(--letter-spacing);
+  color: var(--main-color);
 }
 .mailto {
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
+  letter-spacing:var(--letter-spacing);
+  color: var(--addition-color);
 }
 .mailto:hover,
 .mailto:focus {
@@ -157,8 +161,8 @@ body {
 .tel {
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
+  letter-spacing:var(--letter-spacing);
+  color: var(--addition-color);
 }
 .tel:hover,
 .tel:focus {
@@ -167,21 +171,21 @@ body {
 .p-webstudio {
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.02em;
+  letter-spacing: var(--letter-spacing);
   color: #e7e9fc;
 }
 .suggestions {
   font-weight: 600;
   font-size: 20px;
   line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: var(--main-colour);
+  letter-spacing: var(--letter-spacing);
+  color: var(--main-color);
 }
 .suggestions-paragraph {
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
+  letter-spacing: var(--letter-spacing);
+  color: var(--addition-color);
 }
 
 .webstudio-down {
@@ -194,7 +198,7 @@ body {
   color: #f4f4fd;
 }
 .webstudio-background {
-  background-color: var(--main-colour);
+  background-color: var(--main-color);
 }
 
 .webstudio-down > span {
@@ -224,14 +228,14 @@ body {
 }
 
 .section-h1 {
-  background-color: var(--main-colour);
+  background-color: var(--main-color);
 }
 .main-title {
   color: #ffffff;
   font-weight: 600;
   font-size: 56px;
   line-height: 1.07;
-  letter-spacing: 0.02em;
+  letter-spacing: var(--letter-spacing);
 }
 .section-our-team {
   background-color: #f4f4fd;
@@ -252,73 +256,73 @@ body {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: var(--main-colour);
+  letter-spacing:var(--letter-spacing);
+  color: var(--main-color);
 }
 .punctuality {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: var(--main-colour);
+  letter-spacing: var(--letter-spacing);
+  color: var(--main-color);
 }
 .diligence {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: var(--main-colour);
+  letter-spacing:var(--letter-spacing);
+  color: var(--main-color);
 }
 .technologies {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: var(--main-colour);
+  letter-spacing: var(--letter-spacing);
+  color: var(--main-color);
 }
 
 .services {
   font-weight: 600;
   font-size: 36px;
   line-height: 1.11;
-  letter-spacing: 0.02em;
+  letter-spacing: var(--letter-spacing);
   text-transform: capitalize;
-  color: var(--main-colour);
+  color: var(--main-color);
 }
 
 .our-team {
   font-weight: 600;
   font-size: 36px;
   line-height: 1.11;
-  letter-spacing: 0.02em;
+  letter-spacing: var(--letter-spacing);
   text-transform: capitalize;
-  color: var(--main-colour);
+  color: var(--main-color);
 }
 
 .strategy-paragraph {
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
+  letter-spacing: var(--letter-spacing);
+  color: var(--addition-color);
 }
 
 .punctuality-paragraph {
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
+  letter-spacing:  var(--letter-spacing);
+  color:var(--addition-color);
 }
 
 .diligence-paragraph {
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
+  letter-spacing: var(--letter-spacing);
+  color:var(--addition-color);
 }
 
 .technologies-paragraph {
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
+  letter-spacing: var(--letter-spacing);
+  color:var(--addition-color);
 }
