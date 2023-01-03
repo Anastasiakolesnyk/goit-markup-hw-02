@@ -1,3 +1,13 @@
+html{
+  box-sizing: border-box;
+}
+*,
+* ::before,
+* ::after
+{
+box-sizing: inherit;
+}
+
 :root {
   --main-color: #2e2f42;
   --background-color: #e7e9fc;
@@ -6,9 +16,50 @@
   --letter-spacing: 0.02em;
 }
 
+
+p,h1,h2,h3,h4,h5,h6{
+  margin: 0;
+}
+
+ul{
+  margin: 0;
+  padding-left: 0;
+}
+
+
 body {
   font-family: "Roboto", sans-serif;
   color: var(--addition-color);
+}
+
+.header{
+  padding-top: 24px;
+  padding-bottom: 24px;
+ border: 0.5px solid #F4F4FD;
+ box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+}
+
+.site-nav{
+  display: flex;
+  margin-left: 77px;
+}
+
+
+.site-nav .items:not(:last-child){
+  margin-right: 40px;
+}
+
+.contacts-nav{
+  display: flex;
+  margin-left: auto;
+}
+.contacts-nav .items-contacts:not(:last-child)
+{
+  margin-right: 40px;
+}
+.div-line{
+  display: flex;
+  align-items: center;
 }
 
 .list {
@@ -26,6 +77,16 @@ body {
   color: var(--button-color);
   background-color: var(--background-color);
   cursor: pointer;
+
+display: inline-block;
+min-width: 69px;
+padding-left: 24px;
+padding-right: 24px;
+padding-top: 12px;
+padding-bottom: 12px;
+border-radius: 4px;
+border-color: transparent;
+
 }
 .all-button:hover,
 .all-button:focus {
@@ -41,6 +102,13 @@ body {
   color: var(--button-color);
   background-color: var(--background-color);
   cursor: pointer;
+
+  display: inline-block;
+  min-width: 116px;
+  padding: 12px 24px;
+  border-radius: 4px;
+  border-color: transparent;
+  align-items: center;
 }
 
 .website-button:hover,
@@ -57,6 +125,23 @@ body {
   color: var(--button-color);
   background-color: var(--background-color);
   cursor: pointer;
+
+  display: inline-block;
+  min-width: 78px;
+  padding: 12px 24px;
+  border-radius: 4px;
+  border-color: transparent;
+}
+
+.portfolio-list{
+  display: flex;
+  padding-top: 96px;
+  padding-bottom: 72px;
+  justify-content: center;
+}
+.portfolio-list .portfolio-items:not(:last-child)
+{
+  margin-right: 24px;
 }
 
 .app-button:hover,
@@ -73,6 +158,12 @@ body {
   color: var(--button-color);
   background-color: var(--background-color);
   cursor: pointer;
+
+  display: inline-block;
+  min-width: 101px;
+  padding: 12px 24px;
+  border-radius: 4px;
+  border-color: transparent;
 }
 
 .design-button:hover,
@@ -89,6 +180,12 @@ body {
   color: var(--button-color);
   background-color: var(--background-color);
   cursor: pointer;
+
+  display: inline-block;
+  min-width: 126px;
+  padding: 12px 24px;
+  border-radius: 4px;
+  border-color: transparent;
 }
 
 .marketing-button:hover,
@@ -173,20 +270,61 @@ body {
   line-height: 1.5;
   letter-spacing: var(--letter-spacing);
   color: #e7e9fc;
+  margin-top: 16px;
+  width: 264px;
 }
+
+.suggestion-list{
+display: flex;
+flex-wrap: wrap;
+}
+
+.suggestion-elements{
+  width: 360px;
+  margin-right: 24px;
+  margin-bottom: 48px;
+  border: 0.5px solid #F4F4FD;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+
+
+.suggestion-elements:nth-child(3n)
+{
+  margin-right: 0px;
+}
+
+.suggestion-elements-add{
+   width: 360px;
+  margin-right: 24px;
+  margin-bottom: 120px;
+  border: 0.5px solid #F4F4FD;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+
+.suggestion-elements-add:nth-child(3n)
+{
+  margin-right: 0px;
+}
+
 .suggestions {
   font-weight: 600;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: var(--letter-spacing);
   color: var(--main-color);
+  padding-bottom: 8px;
+  padding-top: 32px;
+  padding-left: 16px;
 }
 .suggestions-paragraph {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: var(--letter-spacing);
   color: var(--addition-color);
+  padding-bottom: 32px;
+  padding-left: 16px;
 }
+
 
 .webstudio-down {
   font-family: "Raleway";
@@ -199,7 +337,10 @@ body {
 }
 .webstudio-background {
   background-color: var(--main-color);
+padding-top: 100px;
+padding-bottom: 100px;
 }
+  
 
 .webstudio-down > span {
   font-family: "Raleway";
@@ -220,6 +361,15 @@ body {
   color: #ffffff;
   background-color: #4d5ae5;
   cursor: pointer;
+
+display: inline-block ;
+min-width: 170px;
+padding-left: 32px;
+padding-right: 32px;
+padding-top: 16px;
+padding-bottom: 16px;
+border-radius: 4px;
+border-color: transparent;
 }
 
 .oder-service-button:hover,
@@ -229,6 +379,10 @@ body {
 
 .section-h1 {
   background-color: var(--main-color);
+  padding-top: 192px;
+  padding-bottom: 192px;
+  text-align: center;
+
 }
 .main-title {
   color: #ffffff;
@@ -236,6 +390,9 @@ body {
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: var(--letter-spacing);
+
+  margin-bottom: 48px;
+
 }
 .section-our-team {
   background-color: #f4f4fd;
@@ -252,6 +409,17 @@ body {
   clip-path: inset(50%);
   margin: -1px;
 }
+
+.our-skills-list{
+  display: flex;
+}
+
+.our-skills-list .skills-items:not(:last-child){
+  margin-right: 24px;
+}
+
+
+
 .strategy {
   font-weight: 500;
   font-size: 20px;
@@ -288,6 +456,17 @@ body {
   letter-spacing: var(--letter-spacing);
   text-transform: capitalize;
   color: var(--main-color);
+  margin-bottom: 72px;
+  text-align: center;
+}
+
+.services-list{
+  display: flex;
+}
+
+.services-list .services-items:not(:last-child)
+{
+  margin-right: 24px;
 }
 
 .our-team {
@@ -297,6 +476,31 @@ body {
   letter-spacing: var(--letter-spacing);
   text-transform: capitalize;
   color: var(--main-color);
+  margin-bottom: 72px;
+  text-align: center;
+}
+
+.our-team-list{
+  display: flex;
+  text-align: center;
+justify-content: center;
+}
+
+.our-team-list .our-team-items:not(:last-child)
+{
+  margin-right: 24px;
+}
+
+.our-team-items{
+  background-color: #ffffff;
+  border-radius: 0px 0px 4px 4px
+}
+.staff{
+  padding-bottom: 8px;
+  padding-top: 32px;
+}
+.staff-paragraph{
+  padding-bottom: 32px;
 }
 
 .strategy-paragraph {
@@ -304,6 +508,7 @@ body {
   line-height: 1.5;
   letter-spacing: var(--letter-spacing);
   color: var(--addition-color);
+  min-width: 264px;
 }
 
 .punctuality-paragraph {
@@ -311,6 +516,7 @@ body {
   line-height: 1.5;
   letter-spacing: var(--letter-spacing);
   color: var(--addition-color);
+  min-width: 264px;
 }
 
 .diligence-paragraph {
@@ -318,6 +524,7 @@ body {
   line-height: 1.5;
   letter-spacing: var(--letter-spacing);
   color: var(--addition-color);
+  min-width: 264px;
 }
 
 .technologies-paragraph {
@@ -325,4 +532,20 @@ body {
   line-height: 1.5;
   letter-spacing: var(--letter-spacing);
   color: var(--addition-color);
+  min-width: 264px;
+}
+
+.container{
+  width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  outline: 1px solid tomato;
+}
+.section{
+  padding-top: 120px;
+  padding-left: 156px;
+  padding-right: 156px;
+  padding-bottom: 120px;
 }

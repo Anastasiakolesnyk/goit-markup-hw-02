@@ -12,62 +12,66 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
 
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header>
-      <nav>
+    <header class="header">
+      <nav class="container div-line">
         <a href="" class="webstudio link">Web<span>studio</span></a>
-        <ul class="list">
-          <li><a href="./index.html" class="studio link">Studio</a></li>
-          <li>
+        <ul class=" site-nav list">
+          <li class="items"><a href="./index.html" class="studio link">Studio</a></li>
+          <li class="items">
             <a href="./portfolio.html" class="portfolio link">Portfolio</a>
           </li>
-          <li><a href="" class="contacts link">Contacts</a></li>
+          <li class="items"><a href="" class="contacts link">Contacts</a></li>
         </ul>
-      </nav>
-      <ul class="list">
-        <li>
+      <ul class=" contacts-nav list">
+        <li class="items-contacts">
           <a href="mailto:info@devstudio.com" class="mailto link">
             info@devstudio.com</a
           >
         </li>
-        <li>
+        <li class="items-contacts">
           <a href="tel:+110001111111" class="tel link"> +11 (000) 111-11-11</a>
         </li>
       </ul>
+      </nav>
     </header>
     <main>
       <section class="section-h1">
-        <h1 class="main-title">Effective Solutions for Your Business</h1>
+        <div class="container">
+        <h1 class="main-title">Effective Solutions <br>for Your Business</br></h1>
         <button type="button" class="oder-service-button">Order Service</button>
+        </div>
       </section>
-      <section>
-        <h2 hidden>Our skills</h2>
-        <ul class="list">
-          <li>
+      <section class="section">
+        <div class="container" >
+        <h2 class="visually-hidden">Our skills</h2>
+        <ul class=" our-skills-list list">
+          <li class="skills-items">
             <h3 class="strategy">Strategy</h3>
             <p class="strategy-paragraph">
               Our goal is to identify the business problem to walk away with the
               perfect and creative solution.
             </p>
           </li>
-          <li>
+          <li class="skills-items">
             <h3 class="punctuality">Punctuality</h3>
             <p class="punctuality-paragraph">
               Bring the key message to the brand's audience for the best price
               within the shortest possible time.
             </p>
           </li>
-          <li>
+          <li class="skills-items">
             <h3 class="diligence">Diligence</h3>
             <p class="diligence-paragraph">
               Research and confirm brands that present the strongest digital
               growth opportunities and minimize risk.
             </p>
           </li>
-          <li>
+          <li class="skills-items">
             <h3 class="technologies">Technologies</h3>
             <p class="technologies-paragraph">
               Design practice focused on digital experiences. We bring forth a
@@ -75,11 +79,13 @@
             </p>
           </li>
         </ul>
+        </div>
       </section>
-      <section>
+      <section class="section">
+        <div class="container">
         <h2 class="services">What Are We Doing</h2>
-        <ul class="list">
-          <li>
+        <ul class=" services-list list">
+          <li class="services-items">
             <img
               src="./images/imagine1.jpg"
               alt="img"
@@ -87,7 +93,7 @@
               height="300"
             />
           </li>
-          <li>
+          <li class="services-items">
             <img
               src="./images/imagine2.jpg"
               alt="img"
@@ -95,7 +101,7 @@
               height="300"
             />
           </li>
-          <li>
+          <li class="services-items">
             <img
               src="./images/imagine3.jpg"
               alt="img"
@@ -104,59 +110,64 @@
             />
           </li>
         </ul>
+        </div>
       </section>
-      <section class="section-our-team">
+      <section class="section-our-team section">
+        <div class="container">
         <h2 class="our-team">Our Team</h2>
-        <ul class="list">
-          <li>
+        <ul class=" our-team-list list">
+          <li class="our-team-items">
             <img
               src="./images/imgman1.jpg"
               alt="img"
               width="264"
               height="260"
             />
-            <h3>Mark Guerrero</h3>
-            <p>Product Designer</p>
+            <h3 class="staff">Mark Guerrero</h3>
+            <p class="staff-paragraph">Product Designer</p>
           </li>
-          <li>
+          <li class="our-team-items">
             <img
               src="./images/imgman2.jpg"
               alt="img"
               width="264"
               height="260"
             />
-            <h3>Tom Ford</h3>
-            <p>Frontend Developer</p>
+            <h3 class="staff">Tom Ford</h3>
+            <p class="staff-paragraph">Frontend Developer</p>
           </li>
-          <li>
+          <li class="our-team-items">
             <img
               src="./images/imgwoman.jpg"
               alt="img"
               width="264"
               height="260"
             />
-            <h3>Camila Garcia</h3>
-            <p>Marketing</p>
+            <h3 class="staff">Camila Garcia</h3>
+            <p class="staff-paragraph">Marketing</p>
           </li>
-          <li>
+          <li class="our-team-items">
             <img
               src="./images/imgman3.jpg"
               alt="img"
               width="264"
               height="260"
             />
-            <h3>Daniel Wilson</h3>
-            <p>UI Designer</p>
+            <h3 class="staff">Daniel Wilson</h3>
+            <p class="staff-paragraph">UI Designer</p>
           </li>
         </ul>
+        </div>
       </section>
     </main>
     <footer class="webstudio-background">
+      <div class="container">
       <a href="" class="webstudio-down link"> <span>Web</span>studio</a>
       <p class="p-webstudio">
         Increase the flow of customers and sales for your business with digital
         marketing & growth solutions.
       </p>
+      </div>
     </footer>
   </body>
 </html>

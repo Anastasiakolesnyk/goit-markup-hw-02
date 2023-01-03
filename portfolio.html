@@ -12,49 +12,51 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
 
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header>
-      <nav>
+    <header class="header">
+      <nav class="container div-line">
         <a href="" class="webstudio link">Web<span>studio</span></a>
-        <ul class="list">
-          <li><a href="./index.html" class="studio link">Studio</a></li>
-          <li>
+        <ul class=" site-nav list">
+          <li class="items"><a href="./index.html" class="studio link">Studio</a></li>
+          <li class="items">
             <a href="./portfolio.html" class="portfolio link">Portfolio</a>
           </li>
-          <li><a href="" class="contacts link">Contacts</a></li>
+          <li class="items"><a href="" class="contacts link">Contacts</a></li>
         </ul>
-      </nav>
-      <ul class="list">
-        <li>
+      <ul class=" contacts-nav list">
+        <li class="items-contacts">
           <a href="mailto:info@devstudio.com" class="mailto link"
             >info@devstudio.com</a
           >
         </li>
-        <li>
+        <li class="items-contacts">
           <a href="tel:+110001111111" class="tel link">+11 (000) 111-11-11</a>
         </li>
       </ul>
+      </nav>
     </header>
 
     <main>
       <section>
+        <div class="container">
         <h1 class="visually-hidden">Portfolio</h1>
-        <ul class="list">
-          <li><button type="button" class="all-button">All</button></li>
-          <li>
+        <ul class="portfolio-list list">
+          <li class="portfolio-items"><button type="button" class="all-button">All</button></li>
+          <li class="portfolio-items">
             <button type="button" class="website-button">Web Site</button>
           </li>
-          <li><button type="button" class="app-button">App</button></li>
-          <li><button type="button" class="design-button">Design</button></li>
-          <li>
+          <li class="portfolio-items"><button type="button" class="app-button">App</button></li>
+          <li class="portfolio-items"><button type="button" class="design-button">Design</button></li>
+          <li class="portfolio-items">
             <button type="button" class="marketing-button">Marketing</button>
           </li>
         </ul>
-        <ul class="list">
-          <li>
+        <ul class=" list suggestion-list">
+          <li class="suggestion-elements">
             <a href="" class="link">
               <img
                 src="./images/hw-2/banking-app-interface-concept.jpg"
@@ -66,7 +68,7 @@
               <p class="suggestions-paragraph">App</p>
             </a>
           </li>
-          <li>
+          <li class="suggestion-elements">
             <a href="" class="link">
               <img
                 src="./images/hw-2/cashless-payment.jpg"
@@ -78,7 +80,7 @@
               <p class="suggestions-paragraph">Marketing</p>
             </a>
           </li>
-          <li>
+          <li class="suggestion-elements">
             <a href="" class="link">
               <img
                 src="./images/hw-2/meditaion-app.jpg"
@@ -91,8 +93,8 @@
             </a>
           </li>
         </ul>
-        <ul class="list">
-          <li>
+        <ul class=" suggestion-list list">
+          <li class="suggestion-elements">
             <a href="" class="link">
               <img
                 src="./images/hw-2/taxi-servece.jpg"
@@ -104,7 +106,7 @@
               <p class="suggestions-paragraph">Marketing</p>
             </a>
           </li>
-          <li>
+          <li class="suggestion-elements">
             <a href="" class="link">
               <img
                 src="./images/hw-2/screen-illustrations.jpg"
@@ -116,7 +118,7 @@
               <p class="suggestions-paragraph">Design</p>
             </a>
           </li>
-          <li>
+          <li class="suggestion-elements">
             <a href="" class="link">
               <img
                 src="./images/hw-2/online-courses.jpg"
@@ -129,8 +131,8 @@
             </a>
           </li>
         </ul>
-        <ul class="list">
-          <li>
+        <ul class=" suggestion-list list">
+          <li class="suggestion-elements-add">
             <a href="" class="link">
               <img
                 src="./images/hw-2/instagram-stories-concept.jpg"
@@ -142,7 +144,7 @@
               <p class="suggestions-paragraph">Design</p>
             </a>
           </li>
-          <li>
+          <li class="suggestion-elements-add">
             <a href="" class="link">
               <img
                 src="./images/hw-2/organic-food.jpg"
@@ -154,7 +156,7 @@
               <p class="suggestions-paragraph">Web Site</p>
             </a>
           </li>
-          <li>
+          <li class="suggestion-elements-add">
             <a href="" class="link">
               <img
                 src="./images/hw-2/fresh-coffe.jpg"
@@ -171,11 +173,13 @@
     </main>
 
     <footer class="webstudio-background">
+      <div class="container">
       <a href="" class="webstudio-down link"><span>Web</span>studio</a>
       <p class="p-webstudio">
         Increase the flow of customers and sales for your business with digital
         marketing & growth solutions.
       </p>
+      </div>
     </footer>
   </body>
 </html>
